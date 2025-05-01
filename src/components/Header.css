@@ -1,0 +1,79 @@
+/* Header Container */
+.header {
+  background-color: #1d1f23; /* Darker shade for a more modern feel */
+  color: #f5f5f5; /* Soft white color for better readability */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover and scroll effects */
+}
+
+.header:hover {
+  background-color: #282c34; /* Slight hover effect to lighten the background */
+}
+
+/* Logo Styling */
+.header__logo h1 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.header__logo:hover h1 {
+  color: #3498db; /* Color change on hover */
+}
+
+/* Navigation Styling */
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation List */
+.nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Item */
+.nav__item {
+  margin-left: 30px;
+  transition: transform 0.2s ease-in-out; /* Smooth scale effect */
+}
+
+.nav__item:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Navigation Link */
+.nav__link {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  transition: color 0.3s ease, padding 0.3s ease;
+}
+
+/* Navigation Link Hover Effect */
+.nav__link:hover {
+  color: #3498db; /* Change color on hover */
+  padding: 5px 15px; /* Increase padding for a more dynamic feel */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+/* Active Link (Optional) */
+.nav__link:active {
+  color: #2980b9; /* Darker blue when active */
+}

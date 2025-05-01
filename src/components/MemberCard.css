@@ -1,0 +1,67 @@
+/* Member Card Container */
+.member-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 240px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hover Effect */
+.member-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Member Image */
+.member-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: opacity 0.3s ease;
+}
+
+.member-card img:hover {
+  opacity: 0.95;
+}
+
+/* Member Name (Title Card) */
+.member-card h3 {
+  margin: 10px 0 6px;
+  font-size: 1.2rem;
+  color: #2c3e50; /* Updated to a modern dark navy color */
+  font-weight: 600;
+}
+
+/* Member Description */
+.member-card p {
+  color: #666666;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+/* View Button */
+.view-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect for Button */
+.view-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

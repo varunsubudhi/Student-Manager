@@ -1,0 +1,40 @@
+/* Main Section for Viewing Members */
+.view-members {
+  padding: 40px;
+  text-align: center;
+  background-color: #1e1f23;
+  color: #f5f7fa;
+}
+
+/* Title Styling */
+.members-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #f5f7fa;
+}
+
+/* Member Grid Layout */
+.members-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Error Message Styling */
+.error-message {
+  color: #ff4d4f;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+/* Add smooth hover or transition effects for the cards (optional) */
+.members-grid .member-card {
+  transition: transform 0.3s ease;
+}
+
+.members-grid .member-card:hover {
+  transform: translateY(-5px);
+}

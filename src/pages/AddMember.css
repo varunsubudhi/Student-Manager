@@ -1,0 +1,50 @@
+.add-member {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #b7b4b4;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .add-member h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-member label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .add-member input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .add-member button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .add-member button:hover {
+    background-color: #218838;
+    cursor: pointer;
+  }
+  
+  .message {
+    text-align: center;
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
